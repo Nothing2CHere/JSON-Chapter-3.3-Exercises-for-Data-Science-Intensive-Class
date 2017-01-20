@@ -1,5 +1,6 @@
 # JSON-Chapter-3.3-Exercises-for-Data-Science-Intensive-Class
 
+
 # Find the 10 countries with most projects
 sample_json_df = pd.read_json('data/world_bank_projects.json')
 sample_json_df.groupby('countryshortname').size().sort_values(ascending=False).head(10)
@@ -15,6 +16,7 @@ Bangladesh            12
 Morocco               12
 Mozambique            11
 Africa                11
+
 
 
 
